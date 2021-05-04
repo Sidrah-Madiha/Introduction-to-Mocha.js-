@@ -29,7 +29,7 @@ it() resides within describe() and has 2 params, one is testcase description oth
 
 Note: call back function is a function that execute after an event has occurred, it is ideal for asynchronous JS.
 
-** Run tests**
+**Run tests**
 - Run command `npm test` to run test script.
 
 #### Use Mocha hooks for pre and post conditions for all test and every test:
@@ -54,7 +54,7 @@ Please check test3.js (test suite with part 4 in description to see example)
 - These can be used of test suite or test case,
 Please see test3.js (first testcase in first test suite) to understand syntax of retries.
 
-** timeoout **
+**timeoout**
 - We can define timeouts on test suite level, testcase level or on beforeEach and afterEach hook level.
 
 NOTE: if using `setTimeout`(done, 500) like so `setTimeout(done, 500)` don't forget to put done in function call back and setTimeout params.
