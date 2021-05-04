@@ -47,7 +47,7 @@ Please see test3.js for this section.
 
 ####  Use this.timeout() and this.retries()
 Please check test3.js (test suite with part 4 in description to see example)
-** retries **
+**retries **
 - Retries can be used to retry failed test for a fixed number of times.
 - These are used for end to end tests
 - Not ideal for unit test.
