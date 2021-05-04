@@ -1,0 +1,19 @@
+{
+  "name": "mocha",
+  "version": "1.0.0",
+  "description": "**Introduction:**\r - A test framework is set of guidelines to create effective test cases\r - Javascript testing framework runs on browser.\r - Runs on node.js (run time environment)\r - similar to TestNG in Java, NUnit in C#\r - good for ansynchrous testing",
+  "main": "helloMocha.js",
+  "scripts": {
+    "test": "mocha --timeout 10000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nyc": "^15.1.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {}
+}
